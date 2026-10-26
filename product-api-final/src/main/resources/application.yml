@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: product-api
+
+logging:
+  pattern:
+    console: "%d{HH:mm:ss.SSS} %-5level %msg%n"
+  charset:
+    console: UTF-8
+  level:
+    root: WARN
+    dev.coffeeandcode: INFO
+    # Uncomment to see Spring's own cache decisions (hit / miss / put / evict):
+    # org.springframework.cache: TRACE
